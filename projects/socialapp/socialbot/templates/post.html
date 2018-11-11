@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+<form method="POST" enctype="multipart/form-data">
+{% csrf_token %}
+{{ form }}
+<input type="submit" class="btn-default btn" value="Add Picture">
+<form>
+</body>
+</html>
